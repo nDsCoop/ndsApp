@@ -11,7 +11,6 @@ import {
 
 
 ReactDOM.render(
-  <React.StrictMode>
     <Router>
 
      <Auth0Provider
@@ -26,8 +25,6 @@ ReactDOM.render(
     </Auth0Provider>
          
     </Router>,
-    
-  </React.StrictMode>,
   document.getElementById('root')
 );
 
